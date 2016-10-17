@@ -1,15 +1,22 @@
 #include <stdio.h>
 
+
+
 void main() {
-	int i;
-	for (i = 1; i <= 100; i++) {
-		printf("%d\n", i);
+
+
+	for (int a = 1; a <= 100; a++) {
+		if (a % 3 == 0)
+			printf("%d\t", a);
+	
 	
 	}
 
-
-
-
-
-
+	
 }
+
+
+
+
+
+
